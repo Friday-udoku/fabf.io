@@ -87,7 +87,7 @@ left:45%;
   width: 100%;
   opacity: 0;
   transition: 2s ease linear;
-  background: url(/image2/IgboMasqGroup.jpg) 50%/cover no-repeat;
+  background: url(IgboMasqGroup.jpg) 50%/cover no-repeat;
   cursor: pointer;
   z-index: 60;
     }
@@ -102,7 +102,7 @@ left:45%;
       width: 100%;
       opacity: 0;
       transition: 2s ease linear;
-      background: url(/image2/IgboKids1.jpg) 50%/cover no-repeat;
+      background: url(IgboKids1.jpg) 50%/cover no-repeat;
       cursor: pointer;
         }
         .research-cover
@@ -116,7 +116,7 @@ left:45%;
           width: 100%;
           opacity: 0;
           transition: 2s ease linear;
-          background: url(/image2/researchImg.jpg) 50%/cover no-repeat;
+          background: url(researchImg.jpg) 50%/cover no-repeat;
           cursor: pointer;
          }
 
@@ -307,7 +307,7 @@ left:45%;
 /*-------------------------------------------------FOOTER SECTION-----------------------*/
   .footer
     {
-    background: url(/images/presentationBK.jpg) no-repeat;
+    background: url(presentationBK.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     margin: auto;
@@ -516,9 +516,5 @@ left:45%;
           .navbar{
            top:40%; 
         }
-        .foo {
-    background-image: url(images/image1.png), url(images/image2.png);
-    background-color: violet;
-    background-blend-mode: screen multiply;
-}
+      
       }
