@@ -25,8 +25,7 @@ navbar, mission-statement, profile-card, Top-Header div >> registration....sign-
      border-bottom: 1px solid #000000;
 
      }
-      .navbar-collapse{background: white !important;}
-      .navbar-nav .nav-item .nav-link{color:rgb(10, 10, 10) !important;}
+      
 
 
  .sign{width:20% !important; z-index: 100;}
@@ -56,7 +55,8 @@ navbar, mission-statement, profile-card, Top-Header div >> registration....sign-
     .m-inner{transform: translate(-6%, 3%);}
     #showimg{ transform: translateY(40%) !important;
 }
-    
+.navbar-collapse{background: white !important;}
+.navbar-nav .nav-item .nav-link{color:rgb(10, 10, 10) !important;}  
 }
 @media(max-width:650px){
 
@@ -66,6 +66,9 @@ navbar, mission-statement, profile-card, Top-Header div >> registration....sign-
 }
 
 }
+
+ 
+  }
 
 /*-----------PROFILE CARD section----------------------------*/
 
