@@ -265,6 +265,7 @@ word-spacing: 1px !important;
     background-attachment: fixed;
      height:100px;
     z-index: 20;  
+    overflow: hidden;
     }
     #header-top h5{
       color: #f2aa4cff !important;
