@@ -11,7 +11,7 @@
 navbar, mission-statement, profile-card, Top-Header div >> registration....sign-in and Up
 */
 
-
+/* 
 .navbar
 {
      color: #FFFFFF;
@@ -25,7 +25,7 @@ navbar, mission-statement, profile-card, Top-Header div >> registration....sign-
      border-bottom: 1px solid #000000;
 
      }
-      
+       */
 
 
  .sign{width:20% !important; z-index: 100;}
@@ -58,6 +58,14 @@ navbar, mission-statement, profile-card, Top-Header div >> registration....sign-
 .navbar-collapse{background: white !important;}
 .navbar-nav .nav-item .nav-link{color:rgb(10, 10, 10) !important;}  
 }
+
+@media(max-width:780px){
+
+
+  .navber{position: fixed !important;
+    top:-50% !important;
+  }
+}
 @media(max-width:650px){
 
 .sign{width:60% !important;}
@@ -65,10 +73,12 @@ navbar, mission-statement, profile-card, Top-Header div >> registration....sign-
 .home{transform: translateX(-50%) !important;
 }
 
+
+
 }
 
  
-  }
+  
 
 /*-----------PROFILE CARD section----------------------------*/
 
