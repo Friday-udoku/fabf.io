@@ -52,14 +52,14 @@ if (search == " ") {
                 <div class = "text-column col-sm-12 col-md-12 col-lg-8 p-3 " style ="height:30vh">
                 <div class = "text-box ">
                 <h6 class = "card-title"> <strong>Title:</strong> ${title}</h6>
-                <h6 class = "card-title"> <strong>Arthor:</strong> ${author}</h6>
+                <h6 class = "card-title"> <strong>Author:</strong> ${author}</h6>
                 <p class=" txt-desc has-text-black-ter has-text-weight-normal"> Desc: ${desc.slice(
                       0,
                           150
                         ) + '...'}</p>
                 <p class = "links">
                 <a href="${info}" class="btn btn-danger btn-sm btn-vendor">Go to vendors page</a>
-                <a href="${view}" class="btn btn-danger btn-sm btn-embedded" >Go to embedded page</a>
+                <a href="${view}" class="btn btn-danger btn-sm btn-embedded" >Read for free here</a>
                 </p>
                 </div>
                 </div>
