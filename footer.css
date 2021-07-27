@@ -397,29 +397,5 @@ hr{margin-top: 20% !important;
   .mission{padding-right: 1rem ! important;
     
   }
-  header
-  {
-    position: relative;
-    padding-bottom: 25% !important;
-    width: 100vw !important;
-    margin:0 !important;
-    background: url(image/kevin.jpg)50% -100%/cover no-repeat;
-    background-color:rgba(12, 1, 1, 0.9);
-    z-index: 10;
-  
-    }
-    
-  }
-  @media(max-width:356px){
-    header
-    {
-      position: relative;
-      padding-bottom: 20% !important;
-      width: 100vw !important;
-      margin:0 !important;
-      background: url(image/kevin.jpg)50% -250%/cover no-repeat;
-      background-color:rgba(12, 1, 1, 0.9);
-      z-index: 10;
-      }
-  }
-  
+ 
+}
