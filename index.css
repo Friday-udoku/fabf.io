@@ -291,8 +291,8 @@ color: #fffefe !important
           }
           .form-inline{
           
-            min-width:80vw !important;
-            transform: translate(3%,80%)! important;
+            min-width:70vw !important;
+            transform: translate(5%,80%)! important;
           
           }
             .form-control{
