@@ -263,8 +263,47 @@ color: #fffefe !important
     background-color:rgba(12, 1, 1, 0.9);
     z-index: 10;
     }
+    .title-text{
+        min-width: 100vw;
+        min-height: 200px;
+        max-width: 100vw;
+        height: auto;
+        padding-top: 3% !important;
+        transform: translate(-35%, 15%) !important;
+        
+          }
+          .navbar-brand{
+          position: absolute;
+          top:0;
+          left:4%
+          }
+          .home a{
+          position: absolute;
+          left:4%;
+          top:18%
+           }
+           .button{
+            position: absolute;
+            right: 0;
+            top:0;
+            padding-right: 2rem !important;
+            padding-top: 1rem !important;
+          }
+          .form-inline{
+            max-width: 50vw !important;
+            transform: translate(35%,70%)! important;
+          
+          }
+            .form-control{
+             max-width: 100vw !important;
+             position: absolute;
+         
+           }
+       }
+      
+     }
    
-}
+
 
 @media(max-width:599px){
   header
