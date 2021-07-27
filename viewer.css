@@ -143,7 +143,7 @@ display: none;
 }
 #header-top h6 span a{
   width:100%;
-font-size: 16px;
+font-size: 6px;
 }
 .header-registration a{
   margin-left:1rem;
@@ -162,16 +162,7 @@ font-size: 16px;
   top:8%
   }
   }
-       
-@media(max-width:399px){
-  
-  .fabf-desc{
-  top:40%
-  }
-  .fabf-logo, .fa-home{
-    top:12%
-  }
-  }
+
         
 
  
