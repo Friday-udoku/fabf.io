@@ -8,10 +8,10 @@
 
 
 #header-top{
-  min-height:120px;
+  min-height:100px;
   height:auto; 
   width: 100%;
-  background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2017/17_04_cat_bg_03.jpg) 50%/cover no-repeat ;
+  background:#101820ff;
   background-attachment: fixed;
    height:100px;
   z-index: 20 !important;
@@ -33,12 +33,16 @@
 .fabf-register h6
  {
 margin-top: -2.3rem;
-position: absolute; left:32%;
+position: absolute; 
+left:2%;
+transform: translateX(-25%) !important;
 color:rgb(247, 216, 43) !important; 
-text-shadow: 2px 2px 10px rgb(10, 9, 9); z-index: 10;
+text-shadow: 2px 2px 10px rgb(10, 9, 9);
+ z-index: 10;
 }
 
-#header-top h6 span i {color: #121 !important;
+#header-top h6 span i {
+  color: #121 !important;
    text-decoration: none; 
    text-shadow: none;
   
@@ -59,8 +63,9 @@ text-shadow: 2px 2px 10px rgb(10, 9, 9); z-index: 10;
 
 .header-col-1{
 min-height:100%;
-font-size: 0px; line-height: 0%;
-border-top: 110px solid red;
+font-size: 0px;
+line-height: 0%;
+border-top: 120px solid red;
 border-right: 100px solid transparent;
 margin-top: -4rem !important;
 min-width: 100%;
@@ -71,8 +76,10 @@ z-index: 1;
 .fa-home{
   font-size:2rem;
   color:rgb(253, 197, 142);
-  margin-left: 8rem;
-  margin-top: 1rem;
+ position: absolute;
+ top:7%;
+ left: 3%;
+ z-index: 100;
 }
 
 .fabf-logo
@@ -94,7 +101,7 @@ text-shadow: 0px 1px 0px #999,
 {
  
   position: absolute;
-  left:40%; 
+  left:20%; 
   top: 7%;
   z-index: 10;
   font-weight: 900 !important; 
@@ -107,37 +114,32 @@ text-shadow: 0px 1px 0px #999,
   width:100%;
   left:65%;
 }
-#section-viewer{
-background:ivory;
-min-height:600px !important;
-height: auto;
-display: flex;
-justify-content: center;
-padding-top: 2rem;
-padding-left: 2rem;
-font-size: large;
 
 
 
-}
+
+
 @media(max-width:996px)
 {
   .fabf-register h6{
     width:100%;
-    left:45%;
+    left:43%;
   } 
 }
 @media(max-width:768px){
 .fabf-desc{
-  font-size: 16px !important;
+  font-size: 14px !important;
+  width:100vw;
+  left:0;
+  top:6%;
+  padding:1rem !important;
 }
 .fabf-logo{
-  font-size: 20px !important;
-  top:7%;
+  font-size: 25px !important;
+  top:2%;
 }
 .fabf-register h6{
-  width:100%;
-  left:7%;
+display: none;
 }
 #header-top h6 span a{
   width:100%;
@@ -146,351 +148,35 @@ font-size: 16px;
 .header-registration a{
   margin-left:1rem;
 }
+.fa-home{
+  position: absolute;
+  top:2%;
+  z-index: 100;
+  left:30%
+}
 }
      
-@media(max-width:568){
+@media(max-width:460px){
   
   .fabf-desc{
-    font-size: 14px !important;
+  top:8%
   }
   }
-        /* ------------------------Serach button section----------*/
-        
-        .sb-example-1 .search {
-          height: 50px !important;
-          position: relative;
-          display: flex;
-        }
-        .sb-example-1 .search ::placeholder {
-           color:#0f0e0e;
-           position: fixed;
-           top:20%;
-           padding-left: 1%;
-        }
-        .sb-example-1 .searchTerm {
-          width: 100% !important;
-          border: 3px solid #eaf1f1;
-          border-right: none;
-          border-radius: 50px;
-          outline: none;
-          color: #304FFE;
-          font-size: 15px;
-          
-        }
-        .sb-example-1 .searchTerm:focus{
-          color: #000000;
-          text-align: center;
-        }
-        .sb-example-1 .searchButton {
-          margin-left: -15% !important;
-        
-          padding:2px;
-          width: 40px;
-          height: 50px;
-          border: 1px solid #faf3f3;
-          background: #304FFE;
-          text-align: center;
-          color: rgb(150, 3, 3) !important;
-          border-radius: 50px;
-          cursor: pointer;
-          font-size: 20px;
-          outline: none;
-          z-index: 10;
-        }
-
-          /*..........................example 2 ----------------------------*/
-
-
-          /*-------------------------------Footer--------------------------*/
-
-          .footer{
-            background: url(/images/presentationBK.jpg) no-repeat;
-            background-position: center;
-            background-size: cover;
-            margin: auto;
-            width:100vw;
-            padding:45px 10px 30px;
-            font-size:15px;
-            line-height:24px;
-            color: #ffffff;
-            clear:both; 
-            z-index: 55;
-
-          
-      
-          
-        }
-        .site-footer hr
-        {
-          border-top-color:#ffffff;
-          opacity:0.5
-        }
-        .site-footer hr.small
-        {
-          margin:20px 0
-        }
-        .footer h6
-        {
-          color:#DD2C00;
-          font-size:16px;
-          text-transform:uppercase;
-          margin-top:5px;
-          letter-spacing:2px
-        }
-        .site-footer a
-        {
-          color:#ffffff;
-        }
-        .site-footer a:hover
-        {
-          color:#3366cc;
-          text-decoration:none;
-        }
-        .footer-links
-        {
-          padding-left:0;
-          list-style:none
-        }
-        .footer-links li
-        {
-          display:block
-        }
-        .footer-links a
-        {
-          color:#ffffff;
-          font-size: 18px;
-        }
-        .footer-links a:active,.footer-links a:focus,.footer-links a:hover
-        {
-          color:#f38b2a;
-          text-decoration:none;
-          font-weight: 900;
-        }
-        .footer-links.inline li
-        {
-          display:inline-block
-        }
-        .site-footer .social-icons
-        {
-          text-align:right;
-        
-        } 
-        .social-icons .fa{
-          color:#DD2C00 !important;
-          transform: translateY(25%);
-          font-size: 25px;
-          font-weight: 500;
-          
-        }
-
-        .social-icons a
-        {
-          width:40px;
-          height:40px;
-          line-height:40px;
-          margin-left:6px;
-          margin-right:0;
-          border-radius:15%;
-          border: 2px solid white;
-
-        }
-        .copyright-text
-        {
-          margin:0;
-    
-        }
-        .copyright-text a{
-          color:rgb(111, 119, 2) !important;
-        }
-        .copyright-text a:hover
-        {
-          color:chocolate;
-          font-weight: 600;
-          text-decoration: none;
-        }
-        @media (max-width:991px)
-        {
-          .site-footer [class^=col-]
-          {
-            margin-bottom:30px
-          }
-          .footer-heading{ padding-right: 5% !important;}
-           .copyright-text{transform: translateY(-100%) !important;}       
-          
-          
-          }
        
-       
-          @media (max-width:767px)
-        {
-          .copyright-text{
-          transform: translateX(1%) !important;
-          }
-          .site-footer
-          {
-            padding-bottom:0
-          }
-          .site-footer .copyright-text,.site-footer .social-icons
-          {
-            text-align:center
-          }
-        }
-        .social-icons
-        {
-          padding-left:0;
-          margin-bottom:0;
-          list-style:none
-        }
-        .social-icons li
-        {
-          display:inline-block;
-          margin-bottom:4px
-        }
-        .social-icons li.title
-        {
-          margin-right:15px;
-          text-transform:uppercase;
-          color:#ffffff;
-          font-weight:700;
-          font-size:13px
-        }
-        .social-icons a{
-          
-          color:#1625f7;
-          font-size:16px;
-          display:inline-block;
-          line-height:44px;
-          width:44px;
-          height:44px;
-          text-align:center;
-          margin-right:8px;
-          -webkit-transition:all .2s linear;
-          -o-transition:all .2s linear;
-          transition:all .2s linear
-        }
-        .social-icons a:active,.social-icons a:focus,.social-icons a:hover
-        {
-          color:#ffffff;
-          background-color:#29aafe
-        }
-        .social-icons.size-sm a
-        {
-          line-height:34px;
-          height:34px;
-          width:34px;
-          font-size:14px
-        }
-        .social-icons a.facebook:hover
-        {
-          background-color:#3b5998
-        }
-        .social-icons a.twitter:hover
-        {
-          background-color:#00aced
-        }
-        .social-icons a.linkedin:hover
-        {
-          background-color:#007bb6
-        }
-        .social-icons a.dribbble:hover
-        {
-          background-color:#ea4c89
-        }
-        @media (max-width:767px)
-        {
-          .social-icons li.title
-          {
-            display:block;
-            margin-right:0;
-            font-weight:600
-          }
-        }
-@media(max-width:569px){
-  .copyright-text{
-    transform: translate(0%, -70%) !important;
-    }
-}
-
-
-
-
-/* 
-@media(max-width:999px){
-  #viewerCanvas{
-    min-width:600px;
-  max-width:1000px;
-  height:580px;
-  overflow-x: scroll !important;
-
-}
-
-}  */
-
-
-@media(max-width:968px){
-  .desc-text h2{ 
- font-size: 35px;  
+@media(max-width:399px){
+  
+  .fabf-desc{
+  top:45%
   }
+  .fabf-logo, .fa-home{
+    top:12%
+  }
+  }
+        
+
  
-}
-    
-@media(max-width:768px){
-  .desc-text h2{ 
-  font-size: 30px !important;
-  padding-left: 3%;
-  position: relative;
-  right: 10%;
-  }
-}      
+         
 
 
-/* ------------------------------------profile picture-------------------------*/
 
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 250px;
-  margin: auto;
-  text-align: center;
-  color: rgb(36, 21, 3);
-  padding: 1%;
-  margin-left: 3%;
-  font-family: 'Oswald', sans-serif;
-  /*font-family: 'Amiri', serif;*/
-}
-.card img{
-  min-width: 150px !important;;
-  min-height: 150px !important;
-}
-
-.title {
-  color: grey;
-  font-size: 18px;
-}
-
-button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: rgb(36, 21, 3);
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
-}
-
-button:hover, a:hover {
-  opacity: 0.7;
-}
-
-/*
-https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg
-*/

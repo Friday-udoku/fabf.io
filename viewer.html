@@ -7,9 +7,9 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
   <title>Florence Accelerated Book Finder </title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="viewer.css">
+  <link rel="stylesheet" href="footer.css">
   <script type="text/javascript" src="https://www.google.com/books/jsapi.js"></script>
   
   <style>
@@ -39,8 +39,8 @@
       </span></h6>
       </div>
     <div class="header-col-inner-1 d-flex justify-content-center align-items-center">
-  <h2 class="fabf-logo">FABF</h2>
-    <a href="index.html"><i class="fa fa-home fa-lg"></i></a>
+  <h2 class="fabf-logo">FaBf</h2>
+    <a href="index.html"><i class="fa fa-home fa-lg"> | Home</i></a>
     <h5 class="fabf-desc">Florence Accelerated Book Finder | Free Online Reading Platform</h5>
 
   <div class="col-5 header-col-2">
@@ -53,12 +53,13 @@
 
  
 
-  <section id="section-viewer">
-<div id="viewerCanvas" 
-     style="width: 1000px; 
-           height: 600px; z-index: 1;">
+   <div class="container" style="display: flex; min-width: 100vw;">
+    <div id="viewerCanvas" 
+     style="min-width: 100% !important; 
+           height: 600px; z-index: 1; font-size: 45px !important;">
            </div>
-   </section>
+           </div>
+
 
 
 
@@ -66,105 +67,89 @@
 
 
  
-<footer class ="footer">
-  <div class="container">
-    <div class="row">
-      <div class=" footer-heading col-sm-12 col-md-6">
-        <h6>About FABF</h6>
-     
-        <p class="text-justify">Desperate times call for desperate measures a maxim insists. 
-           The pandemic on rampage in the world at the moment,
-           Covid-19 has compelled the imposition of strict restrictions on normal 
-           life activities all over the world by governments both at national and state levels.  
-           Florance Accelerated <i>Book Finder</i>is a palliative initiative that aims to help people in adhering to
-           the Covid-Restriction and managing
-            stress and trauma. </p>
-      </div>
-
-      <div class="col-xs-6 col-md-3 " style="transform: translateX(30%);">
-        <h6>Categories</h6>
-        <ul class="footer-links">
-        
-          <li><a href="http://scanfcode.com/category/front-end-development/">Web Design</a></li>
-          <li><a href="http://scanfcode.com/category/back-end-development/">R&D</a></li>
-          <li><a href="http://scanfcode.com/category/java-programming-language/">Cultural engagement</a></li>
-          <li><a href="http://scanfcode.com/category/android/">Education</a></li>
-          <li><a href="http://scanfcode.com/category/templates/">Web Development</a></li>
-        </ul>
-      </div>
-
-      <div class="col-xs-6 col-md-3" style="transform: translateX(30%)">
-        <h6>Quick Links</h6>
-        <ul class="footer-links">
-          <li><a href="http://scanfcode.com/about/">About Us</a></li>
-          <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-          <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-          <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-          <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
-        </ul>
-      </div>
-    </div>
-    <hr>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-sm-6 col-xs-12">
-        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
-     <a href="#">Dinoteck</a>.
-        </p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <ul class="social-icons">
-          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-          <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
-
-        <!------------------------------NAVBAR------------------------------------------------------>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed">
-          <a class="navbar-brand" href="#"><h2 class="fabf-logo">FABF</h2></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+   <footer class ="footer">
+    <div class="container footer-container">
+      <div class="row footer-row">
+        <div class=" footer-heading col-sm-12 col-md-12 col-lg-6 col-xl-6">
+          <h5 class="ml">Mission</h5>
+          <p class="mission" style="max-width: 100%; min-width: 100%; height: auto;padding-right: 6rem;"> With the tremendous sense of uncertainty caused by the worldwide pandemic on individuals and at the global level, the sense of safety and security - including predicability have continued to elude the world and the people in it. Of course, developing or exacerbating a mental health symptoms is inevitable in a situation like this. Florence Accelerated Book Finder(FaBf) is an alternative to physical libraries that aims to avial people with the opportunity to manage mental challenges by allowing visitors to access books of interest at their comfort zone. It provides round the clock access, enabling information to be gathered when it is needed. And the good news is that, the user will not pay for the service.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-igbo " style="transform: translateX(1%); margin-left: -6rem;">
+          <h5 class="ml">Afiliated | ICANWI</h5>
+          <div class="inner-icanwi">
+          <p class="footer-links igbo-link pr-2" style="min-width: 100%; max-width: 100%; height:auto">
+             ICANWI stands for Igbo Cultural Association NorthWest Ireland.
+              It is a cultural oriented group founded in 2010 with
+               the shared goal of promoting sustanable peace and unity 
+               in the society through cultural integration 
+               and giving back to the community through
+                participation and volunteering <p  style="font-size: large; transform: translateY(-50%) !important; font-weight: 600;">ACTIVITIES:</p>
+                <ul class="mt-n4 ml-n4">
+                 <li> Cultural Integration & promotion</li>
+                  <li>Charitable Initiative</li>
+                  <li>Community Engagement & Volunteering</l>
+                    <li>Language Education</li>
+                </ul>
+          </p>
+          <div class="icanwi-cover">
+            <a href="/ICANWI/index2.html"
+             style="position:absolute; left:20%; top:70% !important;">
+             <button class="btn btn-dark border-warning rounded text-light" >Go to the official website</button></a>
+            </div>
+           </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-2 col-xl-2 col-profile" style="transform: translateX(1%);">
+          <div class="profile-title " style="width:250px">
+            <i class="fa fa-thumbs-up"><emp class="pl-1 
+            profile-title-text" style="font-size: 20px;">I can create your App</emp></i>
           </div>
-        </nav> <!--NAVBAR END--------------------------------------------------->
+          <div class="profile-card pr-2">
+            <div class="profile-image d-flex justify-content-center align-items-center">
+              <img src="image/profile3-re.png" alt="" class="img-top " style="min-width: 30%; height: 80%; border-radius: 20% 12% 0 40% !important; background:rgba(99, 98, 98, 0.945) ;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">
+              <h5 class= "pl-3 mt-1 text-dark" style="width: 50%;">Francis Udoku <p class="small">Founder FaBf</p>
+               <button class="btn btn-secondary text-light  btn-sm contact">Contact Me</button></h5>
+              </div>
+              <div class="profile-body">
+              
+                <p class="text-left p-3 text-larger text-light"># Enthusaistic and passionate about Web Development | curiosity to create a compelling and user engaging website - Skills:
+           
+                 <i class="fab fa-java"></i>
+                 <i class="fab fa-css3"></i>
+                 <i class="fab fa-html5"!></i>
+                 <i class="fab fa-node-js"></i>
+                 <i class="fab fa-java-script"></i></p>
+              </div>
+            </div>
+        </div>
+      </div>
+      <hr style=" margin-top: 1rem;
+      margin-bottom: 1rem;
+      border: 0;
+      border-top: 1px solid peachpuff">
+    </div>
+    <div class="container main-footer">
+      <div class="row">
+        <div class=" copy-right col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+          <a href="https://www.facebook.com/francis.udoku.7921">dinoteck</a>
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/aludinotek"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="https://www.instagram.com/aludino2021/"><i class="fab fa-instagram"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/francis-friday-7abb031b1/"><i class="fab fa-linkedin"></i></a></li>   
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
 
+
+
+      
 
 
 <script type="text/javascript" src="https://www.google.com/books/jsapi.js"></script>
