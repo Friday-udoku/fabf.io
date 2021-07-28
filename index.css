@@ -204,22 +204,33 @@ color: #080707 !important
  }
 
  @media(max-width:786px){
-
-  .title-text{ transform: translate(-95%, -15%) !important;  
-    min-width:100VW !important
-  }
+  
+  .title-text{ transform: translate(-40%, 55%) !important;  
+    min-width:100vw !important;
+    text-align: left !important;}
+    
   .title .welcome{
     font-size: 30px !important;
     font-weight: 900 !important;
+    margin-left: 4rem !important;
   }
   .title  .darks, .yellow{
     font-size: 16px !important;
+    font-weight: 900 !important;
+ 
+  }
+  .title .yellow:not(.darks){
+    margin-left: 2rem !important;
   }
   .title p{
     font-size: 12px !important;
+    font-weight: 900 !important;
+    margin-top: 1rem !important;
+    margin-right: 5rem !important;
     
   }
-  .navbar{padding-right: 5rem !important;}
+  .navbar{padding-right: 5rem !important;
+}
  }
 
  
@@ -230,6 +241,21 @@ color: #080707 !important
     min-width:100VW !important;
     text-align: left !important;
  }
+ .title-text .text h4{
+  padding-right: 5rem !important;
+
+}
+ .title .welcome{
+  font-size: 30px !important;
+  font-weight: 900 !important;
+}
+.title  .darks, .yellow{
+  font-size: 16px !important;
+}
+.title-text .text h4{
+  padding-right: 5rem !important;
+
+}
 }
     /*
     position: relative;
