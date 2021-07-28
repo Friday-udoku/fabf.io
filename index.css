@@ -230,22 +230,24 @@ color: #080707 !important
  
 
 @media(max-width:576px){
-  
+  .form-inline{
+    position: relative;
+    top:200px !important;
+  }
+}
  .title-text{
-    transform: translate(-5%, 25%) !important;  
+    transform: translate(-5%, 2%) !important;  
     min-width:100VW !important;
     text-align: left !important;
+    padding-right: 5rem !important;
  }
- .title-text .text h4{
-  padding-right: 5rem !important;
 
-}
  .title .welcome{
-  font-size: 30px !important;
+  font-size: 35px !important;
   font-weight: 900 !important;
 }
 .title  .darks, .yellow{
-  font-size: 16px !important;
+  font-size: 20px !important;
 }
 .inner-nav-cover{
   transform: translate(-10%, 0%)! important;
@@ -253,18 +255,18 @@ color: #080707 !important
 .navbar-brand{
   visibility: hidden;
 }
-.navbar{transform: translate(0%, -10%) !important;
+.navbar{transform: translate(0%, -20%) !important;
+  z-index: 90;
 }
 }
-@media(max-width:350px){
+@media(max-width:399px){
   .title-text{
-    transform: translate(-10%, 25%) !important;  
+    transform: translate(-7%, 25%) !important;  
  }
  .inner-nav-cover{
-  transform: translate(-25%, 0%)! important;
+  transform: translate(-20%, 10%)! important;
 }
-   
-}
+  
     /*
     position: relative;
     padding-bottom: 0 !important;
