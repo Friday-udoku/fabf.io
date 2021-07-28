@@ -20,6 +20,7 @@ body{
   box-sizing: border-box;
   min-width: 100vw;
   width:100%;
+  -webkit-filter: contrast(1.4) grayscale(1) saturate(1.8) sepia(.6); 
 }
 .col {color:rgb(255, 253, 253); z-index: 80;}/*--------------COLUMN SECTION----------------*/
 .home, .inner-nav-cover, 
@@ -54,16 +55,22 @@ body{
 
 header
 {
-  background: url(image/book-background3.jpg)50% 45%/cover no-repeat;
+
   position: relative;
-  min-width: 1050px, !important;
-  background-color:rgba(12, 1, 1, 0.9);
+  min-width: 100vw !important;
+  background-color:rgba(248, 10, 10, 0.9);
   z-index: 10;
-  height: auto;
-  min-height: 350px !important;
+  min-height: 250px !important;
   box-sizing: border-box;
   height:auto;
   margin:0;
+  background-color: #010307;
+  background-image: url("image/kevin-removebg.png");
+ 
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
+
 }
 
   header:after{
@@ -75,7 +82,7 @@ header
     left:0;
     right:0;
     bottom:0;
-    opacity:0.7;
+    opacity:0.6;
     background: #010307;
     z-index: 2;
 
@@ -84,11 +91,7 @@ header
   .img{
     min-width:100vw;
     height:250px;
-    background-image: url("image/kevin-removebg.png");
-    background-repeat: no-repeat;
-    background-position: 50% 85%;
-    background-size: cover;
-    background-attachment: fixed;
+   
     position: relative;
   }
   
@@ -526,17 +529,14 @@ font-weight: 700;
 
 
    .footer{
-    background-image: url("image/greenBK.jpg");
-    background-position:100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-color: #888;
     width:100vw;
     padding:45px 10px 30px;
     display:block;
     font-size:15px;
     line-height:24px;
     box-sizing: border-box;
-    color: #ffffff;
+    color: #0a0a0a;
     position: relative;
     width: 100%;
     z-index: 55;
