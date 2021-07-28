@@ -205,23 +205,33 @@ color: #080707 !important
 
  @media(max-width:786px){
 
-  .title-text{ transform: translate(-100%, -5%) !important;  
+  .title-text{ transform: translate(-95%, -15%) !important;  
     min-width:100VW !important
   }
-  .title .welcome, .darks, .yellow{
-    font-size: 25px !important;
+  .title .welcome{
+    font-size: 30px !important;
+    font-weight: 900 !important;
+  }
+  .title  .darks, .yellow{
+    font-size: 16px !important;
   }
   .title p{
     font-size: 12px !important;
+    
   }
   .navbar{padding-right: 5rem !important;}
  }
 
- /*
+ 
 
-@media(max-width:799px){
-  header
-  {
+@media(max-width:576px){
+  
+ .title-text{ transform: translate(2%, 15%) !important;  
+    min-width:100VW !important;
+    text-align: left !important;
+ }
+}
+    /*
     position: relative;
     padding-bottom: 0 !important;
     width: 100vw !important;
