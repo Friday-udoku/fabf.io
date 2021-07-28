@@ -1,6 +1,5 @@
 
-
-
+/*----------------------MAIN CONTENT-----------------------------*/
 html, body
 {
   height:100%;
@@ -19,15 +18,15 @@ body{
   min-height: 50%;
   height: auto;
   box-sizing: border-box;
-  min-width: 1050px;
-  width:100vw;
-;
+  min-width: 100vw;
+  width:100%;
 }
-.col-12-sm {color:rgb(255, 253, 253); z-index: 80;}/*--------------COLUMN SECTION----------------*/
+.col {color:rgb(255, 253, 253); z-index: 80;}/*--------------COLUMN SECTION----------------*/
 .home, 
 .navbar-toggler, 
 .navbar-brand,
 .form-inline{z-index: 90;}
+
 /*---------------------NAVBAR BRAND AND HOME SECTION-------------*/
  .home a{
   color:peachpuff !important;
@@ -53,14 +52,14 @@ body{
 
 header
 {
+  background: url(image/book-background3.jpg)50% 45%/cover no-repeat;
   position: relative;
   padding-bottom: 10%;
   min-width: 1050px, !important;
-  background: url(image/kevin.jpg)50% 55%/cover no-repeat;
   background-color:rgba(12, 1, 1, 0.9);
   z-index: 10;
-   height: auto;
-  min-height: 50%;
+  height: auto;
+ min-height: 100px !important;
   box-sizing: border-box;
   margin:0;
 }
@@ -116,8 +115,8 @@ header
     height: 100%;
  
   }
- .card-title{color:rgb(2, 1, 1) !important;
- font-size: 20px !important;
+.card-title{color:rgb(2, 1, 1) !important;
+font-size: 20px !important;
 font-family: Arial, Helvetica, sans-serif;
 }
 .text-box p{
@@ -128,16 +127,13 @@ color: #080707 !important
 
   /*-------------------------Navbar section--------------------------------------*/
   .navbar{
-    
-    border-left: 0px solid rgba(10, 10, 10, 0.2);
     min-height:80px;
     height:auto;
-    min-width:100vw;
+    min-width:100%;
     padding: 2rem;
-    padding-left:4rem !important;
+    padding-left:3rem !important;
     margin:auto !important;
     position: relative;
-    background: url(image/book-background3.jpg)50% 45%/cover no-repeat;
    }
 
   /*-------------------------SEARCH BUTTON Section--------------------------------------*/
@@ -192,7 +188,7 @@ color: #080707 !important
   font-size: 2rem !important;
 }
  
-@media(max-width: 991px){
+/* @media(max-width: 991px){
   
   .image-box img{
     min-width:100%;
@@ -234,8 +230,7 @@ color: #080707 !important
   }
  
 
-    /* background: rgba(0,0,0, 0.8);
-    border-bottom: 1px solid rgba(255,255,255, 0.5); */
+
   
   .title-text{
     min-width: 100vw;
@@ -244,8 +239,7 @@ color: #080707 !important
     height: auto;
     padding-top: 3% !important;
     transform: translate(-28%, 0%) !important;
- 
-      margin-left: 30% !important;
+    margin-left: 30% !important;
     
       }
   
@@ -292,7 +286,7 @@ color: #080707 !important
           }
           .form-inline{
           
-            min-width:70vw !important;
+            min-width:100vw !important;
             transform: translate(5%,80%)! important;
           
           }
@@ -301,7 +295,7 @@ color: #080707 !important
              position: absolute;
          
            }
-           
+           .navbar{min-width:100px !important}
        }
       
      
@@ -360,7 +354,7 @@ font-weight: 700;
    margin-top: 1rem !important;
   }
 
-}
+} */
 
  /*----------------------------------------------------FOOTER-----------------------------*/
 
@@ -769,3 +763,5 @@ hr{
     
   }
 }
+    /* background: rgba(0,0,0, 0.8);
+    border-bottom: 1px solid rgba(255,255,255, 0.5); */
