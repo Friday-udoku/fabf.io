@@ -205,26 +205,26 @@ color: #080707 !important
 
  @media(max-width:786px){
   
-  .title-text{ transform: translate(-95%, -15%) !important;  
+  .title-text{ transform: translate(-90%, -10%) !important;  
     min-width:100vw !important;
-    text-align: right !important;}
-    
-  .title .welcome{
-    font-size: 30px !important;
-    font-weight: 900 !important;
-  }
-  .title  .darks, .yellow{
-    font-size: 16px !important;
-    font-weight: 900 !important;
-  }
-  .title p{
-    font-size: 12px !important;
-    font-weight: 900 !important;
-
-    
+    text-align: right !important;
+    padding-left: 10rem !important;
   }
   .navbar{padding-right: 5rem !important;
-}
+   }
+ }
+ @media(max-width:750px){
+  
+  .title-text{ transform: translate(-85%, 5%) !important;  
+    min-width:100vw !important;
+    text-align: right !important;
+  }
+ }
+ @media(max-width:698px){
+  .title-text{ transform: translate(-83%, 5%) !important;  
+    min-width:100vw !important;
+    text-align: right !important;
+  }
  }
 
  
@@ -233,10 +233,10 @@ color: #080707 !important
   .form-inline{
     position: relative;
     top:200px !important;
-  }
+  
 }
  .title-text{
-    transform: translate(-5%, 2%) !important;  
+    transform: translate(-5%, -30%) !important;  
     min-width:100VW !important;
     text-align: left !important;
     padding-right: 5rem !important;
@@ -259,6 +259,8 @@ color: #080707 !important
   z-index: 90;
 }
 }
+
+
 @media(max-width:399px){
   .title-text{
     transform: translate(-7%, 25%) !important;  
@@ -266,7 +268,7 @@ color: #080707 !important
  .inner-nav-cover{
   transform: translate(-20%, 10%)! important;
 }
-  
+} 
     /*
     position: relative;
     padding-bottom: 0 !important;
