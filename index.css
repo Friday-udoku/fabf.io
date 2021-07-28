@@ -191,7 +191,7 @@ font-weight: 900 !important;
  
 .title-text{
   text-align: right !important;
-  min-width:50VW !important
+  min-width:100vw !important
 }
  @media(max-width: 991px){
   .title-text{ transform: translate(-100%, 0%) !important;   
@@ -210,9 +210,23 @@ font-weight: 900 !important;
     min-width:100vw !important;
     text-align: right !important;
     padding-left: 10rem !important;
+    transform: rotate(45%)! important;
   }
   .navbar{padding-right: 5rem !important;
    }
+   .welcome{
+    font-size: 2rem !important;
+  font-weight: 900 !important;
+  }
+  .yellow, .darks{
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    }
+    .title-text p{
+      font-size: 12px !important;
+    }
+    
+   
  }
  @media(max-width:750px){
   
@@ -252,30 +266,34 @@ font-weight: 900 !important;
   }
   .navbar-brand{visibility: hidden;
    } 
-   .inner-nav-cover{
-    transform: translateX(-18%)! important;
-  }
-  .col-form{
+   .col-form{
     margin-top: -3rem !important;
     min-width: 100vw !important;
   }
+   .inner-nav-cover{
+    transform: translateX(-18%)! important;
+  }
+  
   .form-inline{
     max-width: 70vw !important;
+    margin-top: -.1rem !important;
     
    }
   .inner-nav-cover{
     transform: translate(-5%, 0%)! important;
   }
 }
-   @media(max-width:450px){
-    .column-title{
-    position: absolute;
-    left:70%;
-    }
-    .title-text{ transform: translate(-99%, 20%) !important;  
+   @media(max-width:420px){
+ 
+    .title-text{ 
+     transform: translate(-96%, 15%) !important;  
      min-width:100vw !important;
      text-align: left !important;
+     padding-right: 0 !important;
    }
+   .inner-nav-cover{
+    transform: translate(-10%, 0%)! important;
+  }
    .form-inline{
     min-width: 70vw !important;
     
