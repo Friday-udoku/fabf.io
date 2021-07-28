@@ -6,7 +6,9 @@ html, body
   height:100%;
   width:100%;
   overflow-x: hidden;
-  overflow-y: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+
 }
 body{
   margin: 0;
@@ -17,12 +19,9 @@ body{
   min-height: 50%;
   height: auto;
   box-sizing: border-box;
-  min-width: 100vw;
-  background-image: url("imag/webBkg2.jpeg");
-  background-position: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  min-width: 1050px;
+  width:100%;
+;
 }
 .col-12-sm {color:rgb(255, 253, 253); z-index: 80;}/*--------------COLUMN SECTION----------------*/
 .home, 
@@ -56,13 +55,14 @@ header
 {
   position: relative;
   padding-bottom: 10%;
-  width: 100vw !important;
+  min-width: 1050px, !important;
   background: url(image/kevin.jpg)50% 55%/cover no-repeat;
   background-color:rgba(12, 1, 1, 0.9);
   z-index: 10;
    height: auto;
   min-height: 50%;
   box-sizing: border-box;
+  margin:0;
 }
 
   header:after{
@@ -132,10 +132,11 @@ color: #080707 !important
     border-left: 0px solid rgba(10, 10, 10, 0.2);
     min-height:80px;
     height:auto;
-    width:100vw !important;  
+    min-width:1050px, !important;  
+    max-width:1050px;
     padding: 2rem;
     padding-left:4rem !important;
-    margin: 0 !important;
+    margin:auto !important;
     position: relative;
     background: url(image/book-background3.jpg)50% 45%/cover no-repeat;
    }
