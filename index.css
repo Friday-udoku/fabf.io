@@ -116,14 +116,14 @@ header
     height: 100%;
  
   }
- .card-title{color:rgb(253, 252, 252) !important;
+ .card-title{color:rgb(2, 1, 1) !important;
  font-size: 20px !important;
 font-family: Arial, Helvetica, sans-serif;
 }
 .text-box p{
 font-size: 17px !important;
 font-family: Arial, Helvetica, sans-serif;
-color: #fffefe !important
+color: #080707 !important
 }
 
   /*-------------------------Navbar section--------------------------------------*/
