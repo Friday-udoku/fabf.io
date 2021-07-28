@@ -184,9 +184,12 @@ color: #080707 !important
   font-size: 2.5rem !important;
   font-weight:900 !important;
   }
-.nav-links h4 .yello, .text-darks{
-  font-size: 2rem !important;
+.welcome{
+font-weight: 900 !important;
 }
+.yellow, .darks{
+  font-weight: 600 !important;
+  }
  
 .title-text{
   text-align: right !important;
@@ -221,36 +224,33 @@ color: #080707 !important
   }
  }
  @media(max-width:698px){
-  .title-text{ transform: translate(-83%, 5%) !important;  
+  .title-text{ transform: translate(-83%, -20%) !important;  
     min-width:100vw !important;
     text-align: right !important;
   }
+  .form-inline{
+  margin-top: 2rem !important;
+  
+}
  }
-
- 
 
 @media(max-width:576px){
   .form-inline{
     position: relative;
-    top:200px !important;
+    top:150px !important;
   
 }
  .title-text{
-    transform: translate(-5%, -30%) !important;  
+    transform: translate(-34%, -20%) !important;  
     min-width:100VW !important;
     text-align: left !important;
-    padding-right: 5rem !important;
+    
+   
  }
 
- .title .welcome{
-  font-size: 35px !important;
-  font-weight: 900 !important;
-}
-.title  .darks, .yellow{
-  font-size: 20px !important;
-}
+
 .inner-nav-cover{
-  transform: translate(-10%, 0%)! important;
+  transform: translate(-10%, 15%)! important;
 }
 .navbar-brand{
   visibility: hidden;
@@ -263,10 +263,17 @@ color: #080707 !important
 
 @media(max-width:399px){
   .title-text{
-    transform: translate(-7%, 25%) !important;  
+    transform: translate(-53%, 3%) !important;  
+    min-width:100vw !important;
+    padding:0;
  }
  .inner-nav-cover{
-  transform: translate(-20%, 10%)! important;
+  transform: translate(-20%, 30%)! important;
+}
+.form-inline{
+  position: relative;
+  top:250px !important;
+
 }
 } 
     /*
