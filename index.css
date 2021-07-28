@@ -1,12 +1,12 @@
 
-.fab{margin-left: 2% !important;
-}
+
 
 html, body
 {
   height:100%;
   width:100%;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 body{
   margin: 0;
@@ -18,7 +18,7 @@ body{
   height: auto;
   box-sizing: border-box;
   min-width: 100vw;
-  background-image: url("image/webBkg2.jpeg");
+  background-image: url("imag/webBkg2.jpeg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
