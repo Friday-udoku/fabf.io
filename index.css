@@ -220,7 +220,7 @@ font-weight: 900 !important;
   }
   .yellow, .darks{
     font-weight: 700 !important;
-    font-size: 1.3rem !important;
+    font-size: 2rem !important;
     }
     .title-text p{
       font-size: 14px !important;
@@ -334,9 +334,7 @@ font-weight: 900 !important;
   .form-inline{
     max-width: 90vw !important;
     } 
-    .yellow, .darks{
-      font-size: 1.8rem !important;
-    }
+   
   }
    /*
   .form-inline{
@@ -861,7 +859,7 @@ hr{margin-top: 20% !important;
   }
   .col-profile{
     width:100vw !important;
-    margin-top: 1.5rem !important;
+    margin-top: 2rem !important;
     transform: translateY(40%) !important;
   }
   hr{
