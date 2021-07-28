@@ -215,18 +215,21 @@ font-weight: 900 !important;
   .navbar{padding-right: 5rem !important;
    }
    .welcome{
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
   font-weight: 900 !important;
   }
   .yellow, .darks{
-    font-weight: 600 !important;
-    font-size: 1rem !important;
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
     }
     .title-text p{
       font-size: 12px !important;
     }
     
-   
+   .form-control{
+     padding: 9% !important;
+   }
+   .form-inline{}
  }
  @media(max-width:750px){
   
@@ -275,8 +278,11 @@ font-weight: 900 !important;
   }
   
   .form-inline{
-    max-width: 70vw !important;
+    max-width: 80vw !important;
     margin-top: -.1rem !important;
+    padding: 2%;
+    padding-left: 0%;
+    padding-bottom: 0%;
     
    }
   .inner-nav-cover{
@@ -378,8 +384,8 @@ font-weight: 900 !important;
   transform: translate(0%, -25%) !important;
 }
 
-}  */
-    /*
+}  
+*/
     position: relative;
     padding-bottom: 0 !important;
     width: 100vw !important;
@@ -431,14 +437,11 @@ font-weight: 900 !important;
       
      
    
-
+/*
 
 @media(max-width:599px){
 
-    .title-text{
-      padding-right: 5rem !important;
-      
-    }
+  
     .image-box img{
       min-width:100%;
       height: 100%;
@@ -478,14 +481,7 @@ font-weight: 700;
      }
     }
   
-@media(max-width:393px){
-  .title-text 
-  { 
-   padding-right: 6rem !important;
-   margin-top: 1rem !important;
-  }
 
-} */
 
  /*----------------------------------------------------FOOTER-----------------------------*/
 
