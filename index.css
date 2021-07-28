@@ -312,6 +312,32 @@ font-weight: 900 !important;
     max-width: 90vw !important;
     } 
   }
+  @media(max-width:399px){
+ 
+    .title-text{ 
+     transform: translate(-99%, 15%) !important;  
+     min-width:100vw !important;
+     text-align: left !important;
+     padding-right: 0 !important;
+   }
+   .inner-nav-cover{
+    transform: translate(-13%, 0%)! important;
+  }
+  
+   .title-text span{
+     min-width: 100vw;
+     max-width: 100vw;
+   }
+   .form-control{
+    padding: 9% !important;
+  }
+  .form-inline{
+    max-width: 90vw !important;
+    } 
+    .yellow, .darks{
+      font-size: 1.8rem !important;
+    }
+  }
    /*
   .form-inline{
    min-width: 70vw !important;
