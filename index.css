@@ -15,7 +15,7 @@ body{
   position: relative;
 }
 #web-body{
-  min-height: 30%;
+
   height: auto;
   box-sizing: border-box;
   min-width: 100vw;
