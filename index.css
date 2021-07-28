@@ -203,7 +203,7 @@ font-weight: 900 !important;
   }
  
  }
-
+/*
  @media(max-width:786px){
   
   .title-text{ transform: translate(-90%, -10%) !important;  
@@ -335,7 +335,7 @@ font-weight: 900 !important;
     max-width: 90vw !important;
     } 
    
-  }
+  } */
    /*
   .form-inline{
    min-width: 70vw !important;
