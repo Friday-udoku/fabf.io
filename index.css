@@ -21,6 +21,7 @@ body{
   min-width: 100vw;
   width:100%;
   -webkit-filter: contrast(1.4)  hue-rotate(45deg) grayscale(1) saturate(1.8) sepia(.6) ;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
 }
 .col {color:rgb(255, 253, 253); z-index: 80;}/*--------------COLUMN SECTION----------------*/
 .home, .inner-nav-cover, 
@@ -66,7 +67,7 @@ header
   margin:0;
   background-color: #010307;
   background-image: url("image/kevin-removebg.png");
-  filter: drop-shadow(16px 18px 15px rgba(255, 0, 0, 0.5));
+ 
   background-repeat: no-repeat;
   background-position: 50% 100%;
   background-size: cover;
@@ -142,7 +143,7 @@ color: #080707 !important
 }
 
   /*-------------------------Navbar section--------------------------------------*/
-  .navbar{
+  .navbar-expand-sm{
     min-height:80px;
     height:auto;
     min-width:100%;
@@ -154,7 +155,7 @@ color: #080707 !important
     position: relative;
    }
 
-  /*-------------------------SEARCH BUTTON Section--------------------------------------*/
+  /*-------------------------SEARCH BUTTON Section--------------------------------------
   .navbar-toggler{
 
     border-radius: 5px !important;
@@ -227,7 +228,7 @@ font-weight: 900 !important;
     padding-left: 10rem !important;
     transform: rotate(45%)! important;
   }
-  .navbar{padding-right: 5rem !important;
+  .navbar-expand-sm{padding-right: 5rem !important;
    }
    .welcome{
     font-size: 3.5rem !important;
@@ -524,13 +525,16 @@ font-weight: 700;
   
 
 
- /*----------------------------------------------------FOOTER-----------------------------*/
+ /*----------------------------------------------------FOOTER------
+ https://www.web-eau.net/blog/10-best-footer-html-css-snippets
+ 
+ -----------------------*/
 
 
 
    .footer{
-     position: absolute;
-     bottom:0;
+ 
+    
      background-color: #1f2022;
      box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
     width:100vw;
