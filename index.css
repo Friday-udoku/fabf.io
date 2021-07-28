@@ -233,7 +233,33 @@ font-weight: 900 !important;
   
 }
  }
- /* @media(max-width:576px){
+ @media(max-width:576px){
+   .column-title{
+   position: absolute;
+   left:70%;
+   }
+   .title-text{ transform: translate(-83%, 20%) !important;  
+    min-width:100vw !important;
+    text-align: left !important;
+  }
+  .navbar-brand{visibility: hidden;
+   } 
+   .inner-nav-cover{
+    transform: translate(-18%, -20%)! important;
+  }
+}
+   @media(max-width:399px){
+    .column-title{
+    position: absolute;
+    left:70%;
+    }
+    .title-text{ transform: translate(-99%, 20%) !important;  
+     min-width:100vw !important;
+     text-align: left !important;
+   }
+   
+    } 
+   /*
   .form-inline{
    min-width: 70vw !important;
     margin-top: 12rem !important;
