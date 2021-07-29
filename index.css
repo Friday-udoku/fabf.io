@@ -23,8 +23,13 @@ body{
   -webkit-filter: contrast(1.2)  hue-rotate(45deg) grayscale(1) saturate(1.8) sepia(.6) ;
   box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
 }
-.col {color:rgb(255, 253, 253); z-index: 80;
+.col
+ {color:rgb(255, 253, 253); z-index: 80;
+  min-height:200px;
+  height:auto;
 }/*--------------COLUMN SECTION----------------*/
+
+
 .home, .inner-nav-cover, 
 .navbar-toggler, 
 .navbar-brand,
@@ -33,14 +38,18 @@ body{
 /*---------------------NAVBAR BRAND AND HOME SECTION-------------*/
  .home a{
   color:peachpuff !important;
-  font-size: 25px;
+  font-size: 35px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 900;
   z-index: 100;
+  position: absolute;
+  bottom:0;
 
  }
  .navbar-brand
  {
+   position: absolute;
+   top:0;
    font-weight: 900;
    letter-spacing: -2pt;
    font-size: 2rem !important;
@@ -197,19 +206,27 @@ color: #080707 !important
     
  
 .welcome{
-  font-size: 3.5rem !important;
+  font-size: 5rem !important;
 font-weight: 900 !important;
 }
 .yellow, .darks{
+  font-size: 3rem;;
   font-weight: 600 !important;
   }
  
 .title-text{
-  text-align: right !important;
-  min-width:50vw !important
+  text-align: left !important;
+  min-width:100vw !important;
+  padding-left: 15rem;
 }
+.title-text p{
+  font-size: 20px;
+}
+
+
+/* ------------------------------------------------------MEDIA QUERRY-------------------------------------------*/
  @media(max-width: 991px){
-  .title-text{ transform: translate(-100%, 0%) !important;   
+  .title-text{ transform: translate(-50%, 0%) !important;   
  }
   .image-box img{
     min-width:100%;
@@ -230,9 +247,10 @@ font-weight: 900 !important;
   .navbar-expand-sm{padding-right: 5rem !important;
    }
    .welcome{
-    font-size: 3.5rem !important;
+    font-size: 4rem !important;
   font-weight: 900 !important;
   }
+  /*
   .yellow, .darks{
     font-weight: 700 !important;
     font-size: 1.2rem !important;
@@ -241,7 +259,7 @@ font-weight: 900 !important;
       font-size: 16px !important;
     }
    
- }
+ } */
  @media(max-width:750px){
   
   .title-text{ transform: translate(-85%, 5%) !important;  
@@ -330,7 +348,7 @@ font-weight: 900 !important;
   @media(max-width:399px){
  
     .title-text{ 
-     transform: translate(-99%, 15%) !important;  
+     transform: translate(-105%, 10%) !important;  
      min-width:100vw !important;
      text-align: left !important;
      padding-right: 0 !important;
