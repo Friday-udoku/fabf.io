@@ -20,11 +20,11 @@ body{
   box-sizing: border-box;
   min-width: 100vw;
   width:100%;
-  -webkit-filter: contrast(1.2)  hue-rotate(45deg) grayscale(1) saturate(1.8) sepia(.6) ;
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  
 }
 .col
- {color:rgb(255, 253, 253); z-index: 80;
+ {
+   color:rgb(255, 253, 253); z-index: 80;
   min-height:200px;
   height:auto;
 }/*--------------COLUMN SECTION----------------*/
@@ -75,11 +75,7 @@ header
   height:auto;
   margin:0;
   background-color: #010307;
-  background-image: url("image/kevin-removebg.png");
- 
-  background-repeat: no-repeat;
-  background-position: 50% 100%;
-  background-size: cover;
+
 
 }
 
@@ -95,6 +91,12 @@ header
     opacity:0.6;
     background: #010307;
     z-index: 2;
+    background-image: url("image/kevin-removebg.png");
+    -webkit-filter: contrast(1.4)  hue-rotate(45deg) grayscale(1) saturate(1.8) sepia(.6) ;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: cover;
 
   }
 
@@ -379,9 +381,10 @@ font-weight: 900 !important;
   }
 }
    @media(max-width:420px){
+    header{max-height: 350px !important;}
  
     .title-text{ 
-     transform: translate(-96%, 15%) !important;  
+     transform: translate(-96%, -45%) !important;  
      min-width:100vw !important;
      text-align: left !important;
      padding-right: 0 !important;
@@ -408,6 +411,7 @@ font-weight: 900 !important;
      min-width:100vw !important;
      text-align: left !important;
      padding-right: 0 !important;
+     padding-bottom:3% !important;
    }
    .inner-nav-cover{
     transform: translate(-13%, 0%)! important;
@@ -431,7 +435,7 @@ font-weight: 900 !important;
       font-size: 2.2rem;;
       font-weight: 600 !important;
       }
-      header{max-height: 350px !important;}
+  
    
   } 
    /*
