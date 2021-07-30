@@ -186,6 +186,7 @@ color: #080707 !important
   min-width:20%;
   height:70px;
   border:1px solid green;
+  padding-left: 1%!;
 }
 /*------------------------FORMS-----------------------*/
    .searching::placeholder{
@@ -198,7 +199,7 @@ color: #080707 !important
       max-width: 100% !important;
       position: absolute;
     }
-    .form-control:focus{color:rgb(7, 7, 7); 
+    .searching:focus{color:rgb(7, 7, 7); 
       background: rgb(252, 248, 248);
       outline: none; border: none !important;
     }
