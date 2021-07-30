@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
+
 /*----------------------MAIN CONTENT-----------------------------*/
 html, body
 {
@@ -75,8 +76,6 @@ header
   height:auto;
   margin:0;
   background-color: #010307;
-
-
 }
 
   header:after{
@@ -109,6 +108,7 @@ header
   
 
   #images{ /*------------------------IMAGES FROM SERVER------------------*/
+
     width:100vw;
     z-index: 100;
    min-height: 2px;
@@ -153,6 +153,7 @@ color: #080707 !important
 }
 
   /*-------------------------Navbar section--------------------------------------*/
+
   .navbar-expand-sm{
     min-height:80px;
     height:auto;
@@ -166,6 +167,7 @@ color: #080707 !important
    }
 
   /*-------------------------SEARCH BUTTON Section--------------------------------------*/
+
   .search-container{
     margin:auto !important;
   }
@@ -186,23 +188,18 @@ color: #080707 !important
   min-width:20%;
   height:70px;
   border:1px solid green;
-  padding-left: 1%!;
+  padding-left: 3% !important;
 }
 /*------------------------FORMS-----------------------*/
-   .searching::placeholder{
+
+   .searching::placeholder
+   {
     padding-left: 2em;
     font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-   
+    font-family: Arial, Helvetica, sans-serif; 
    }
-     .form-control{
-      max-width: 100% !important;
-      position: absolute;
-    }
-    .searching:focus{color:rgb(7, 7, 7); 
-      background: rgb(252, 248, 248);
-      outline: none; border: none !important;
-    }
+     
+ 
    
    /*--------------------Title section-------------------*/
   
