@@ -199,7 +199,8 @@ color: #080707 !important
     }
     .form-control:focus{color:rgb(7, 7, 7); 
       background: rgb(252, 248, 248);
-      outline: none; border: none !important;}
+      outline: none; border: none !important;
+    }
    
    /*--------------------Title section-------------------*/
   
@@ -208,22 +209,35 @@ color: #080707 !important
 .title-text{
   text-align: left;
   min-width:100vw !important;
-  padding-left: 15rem;
+  padding-left: 10rem;
+  padding-top: 3%;
+}
+.social-icon-header{
+ 
+  position: relative;
+  min-width: auto !important;
+  min-height: auto !important;
+  position: absolute;
+  left: 80%;
+  bottom: 20%;
+  display: inline-block;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg); 
+  transform: rotate(90deg);
+
 }
  
 .title-text .btn{
-  margin-left: 1rem;
-  padding: .5rem; 
+  margin-left: 3px;
+  margin-top: 2px;
+  padding: .4rem; 
   border-radius: 10px;
 }
 .title-text .fab{
   font-size: 30px;
 }
-.social-icon-header{
-  background: #080707 !important;
-  min-width: auto !important;
-  min-height: auto !important;
-}
+
 
 .welcome{
   font-size: 5rem !important;
@@ -267,7 +281,14 @@ font-weight: 900 !important;
   .title-text p{
     font-size: 19px;
   }
- 
+  .social-icon-header{
+    visibility:hidden;
+  }
+ }
+ @media(max-width: 999px){
+  .social-icon-header{
+    visibility:hidden;
+  }
  }
 
  @media(max-width:786px){
@@ -281,7 +302,7 @@ font-weight: 900 !important;
   .navbar-expand-sm{padding-right: 5rem !important;
    }
    .welcome{
-    font-size: 4rem !important;
+    font-size: 4.5rem !important;
   font-weight: 900 !important;
   }
 }
@@ -383,7 +404,7 @@ font-weight: 900 !important;
   @media(max-width:399px){
  
     .title-text{ 
-     transform: translate(-105%, 10%) !important;  
+     transform: translate(-102%, 10%) !important;  
      min-width:100vw !important;
      text-align: left !important;
      padding-right: 0 !important;
@@ -402,6 +423,14 @@ font-weight: 900 !important;
   .form-inline{
     max-width: 90vw !important;
     } 
+    .welcome{
+      font-size:5rem !important;
+    font-weight: 900 !important;
+    }
+    .yellow, .darks{
+      font-size: 2.5rem;;
+      font-weight: 600 !important;
+      }
    
   } 
    /*
@@ -533,6 +562,7 @@ font-weight: 900 !important;
      
    
 */
+/*-----------------------INNER IMAGE SECTION--------------------------------------------*/
 
 @media(max-width:599px){
 
