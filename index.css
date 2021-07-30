@@ -404,6 +404,15 @@ font-weight: 900 !important;
   }
   .form-inline{
     max-width: 90vw !important;
+    }
+    #searching{
+      min-width:65%;
+      height:70px;
+      border:1px solid green;
+      margin-left: -1rem !important;
+    }
+    input, button{
+      margin-bottom: 1rem !important;
     } 
   }
   @media(max-width:399px){
