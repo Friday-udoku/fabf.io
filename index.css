@@ -404,7 +404,7 @@ font-weight: 900 !important;
   @media(max-width:399px){
  
     .title-text{ 
-     transform: translate(-102%, 10%) !important;  
+     transform: translate(-102%, -40%) !important;  
      min-width:100vw !important;
      text-align: left !important;
      padding-right: 0 !important;
@@ -428,9 +428,10 @@ font-weight: 900 !important;
     font-weight: 900 !important;
     }
     .yellow, .darks{
-      font-size: 2.5rem;;
+      font-size: 2.2rem;;
       font-weight: 600 !important;
       }
+      header{max-height: 350px !important;}
    
   } 
    /*
