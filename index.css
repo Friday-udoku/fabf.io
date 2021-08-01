@@ -69,7 +69,7 @@ header
 {
   position: relative;
   min-width: 100vw !important;
-  background-color:rgba(0, 0, 0, 0.9);
+  background-image: linear-gradient(90deg, #020024 0%, #06061a 35%, #00d4ff 100%);
   z-index: 10;
   min-height: 250px !important;
   box-sizing: border-box;
@@ -407,15 +407,17 @@ font-weight: 900 !important;
   @media(max-width:399px){
  
     .title-text{ 
-     transform: translate(-102%, 0%) !important;  
+     transform: translate(-102%, -20%) !important;  
      min-width:100vw !important;
      text-align: left !important;
      padding-right: 0 !important;
      padding-bottom:3% !important;
      z-index: 100;
+     line-height: 20pt;
    }
  .navbar-expand-sm{
-   transform: translate(3%, 5%);
+   transform: translate(2%, 5%);
+   max-height:400px !important;
    z-index: 100;
  }
   
@@ -447,8 +449,9 @@ font-weight: 900 !important;
     margin-top: 2rem !important;
   
    }
-
   
+  
+  }
 
 
    /*
