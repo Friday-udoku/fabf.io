@@ -92,7 +92,6 @@ header
     z-index: 2;
     background-image: url("image/kevin-original.jpg");
     -webkit-filter: contrast(1.4)  hue-rotate(45deg) grayscale(10%) brightness(60%) saturate(1.8) sepia(.6);
-
   background-repeat: no-repeat;
   background-position: 50% 70%;
   background-size: cover;
@@ -102,7 +101,6 @@ header
   .img{
     min-width:100vw;
     height:250px;
-   
     position: relative;
   }
   
@@ -406,18 +404,23 @@ font-weight: 900 !important;
    .form-control{
     padding: 10% !important;
   }
-  .form-inline{
-    max-width: 90vw !important;
+  form{
+   margin-top: -70%;
     }
     #searching{
       min-width:65%;
-      height:70px;
+      height:50px;
       border:1px solid green;
       margin-left: -1rem !important;
     }
     input, button{
       margin-bottom: 1rem !important;
-    } 
+    } #search-button{
+      height:50px;
+    }
+    .searching::placeholder{font-size: 12px !important;
+      padding-left: 0 !important;
+    }
   }
   @media(max-width:399px){
  
@@ -646,7 +649,7 @@ font-weight: 700;
  -----------------------*/
 
 
-/* 
+
    .footer{
  
     
@@ -840,7 +843,7 @@ font-weight: 700;
   font-weight: 900 !important;
 }
 /*-------------------media querry---------------------------*/
-/* @media(max-width:1060px){
+@media(max-width:1060px){
   .profile-card{
     min-width: 250px;
   }
@@ -1064,6 +1067,6 @@ hr{
   .footer-heading {
     margin-top:-2rem !important;
   } 
-} */
+} 
     /* background: rgba(0,0,0, 0.8);
     border-bottom: 1px solid rgba(255,255,255, 0.5); 
