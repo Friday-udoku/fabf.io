@@ -88,13 +88,14 @@ header
     right:0;
     bottom:0;
     opacity:0.6;
-    background: #010307;
+    background: rgb(145,9,149);
+    background: linear-gradient(90deg, rgba(145,9,149,1) 0%, rgba(0,9,0,1) 0%, rgba(0,212,255,1) 100%);
     z-index: 2;
     background-image: url("image/kevin-original.jpg");
     -webkit-filter: contrast(1.4)  hue-rotate(45deg) grayscale(10%) brightness(60%) saturate(1.8) sepia(.6);
   background-repeat: no-repeat;
   background-position: 50% 70%;
-  background-size: cover;
+  background-size: contain;
 
   }
 
@@ -164,7 +165,7 @@ color: #080707 !important
     position: relative;
    }
 
-  /*-------------------------SEARCH BUTTON Section--------------------------------------*/
+  /*-------------------------SEARCH FORM Section--------------------------------------*/
   .searching-row{
     min-width:100vw;
     height:auto;
@@ -195,8 +196,6 @@ color: #080707 !important
   background: #f2aa4cff !important;
   z-index: 100;
 }
-/*------------------------FORMS-----------------------*/
-
    .searching::placeholder
    {
     padding-left: 2em;
@@ -204,7 +203,7 @@ color: #080707 !important
     font-family: Arial, Helvetica, sans-serif; 
    }
      
- 
+
    
    /*--------------------Title section-------------------*/
   
@@ -213,7 +212,7 @@ color: #080707 !important
 .title-text{
   text-align: left;
   min-width:100vw !important;
-  padding-left: 5rem;
+  padding-left: 2rem;
   padding-top: 3%;
 }
 .social-icon-header{
@@ -222,7 +221,7 @@ color: #080707 !important
   min-width: auto !important;
   min-height: auto !important;
   position: absolute;
-  left: 80%;
+  left: 73%;
   bottom: 50%;
   display: inline-block;
   -webkit-transform: rotate(10deg);
@@ -371,16 +370,17 @@ font-weight: 900 !important;
   
   .home a{
   font-size: 28px !important;
+  margin-left: -2.5rem;
   }
 
  }
-   @media(max-width:420px){
+   @media(max-width:430px){
     header{max-height: 460px !important;
     overflow:hidden !important
     }
  
     .title-text{ 
-     transform: translate(-96%, -45%) !important;  
+     transform: translate(-96%, -1%) !important;  
      min-width:100vw !important;
      text-align: left !important;
      padding-right: 0 !important;
@@ -392,7 +392,7 @@ font-weight: 900 !important;
    }
 
   form{
-   margin-top: -70%;
+   margin-top: -38%;
     }
     #searching{
       min-width:65%;
@@ -408,6 +408,7 @@ font-weight: 900 !important;
     .searching::placeholder{font-size: 12px !important;
       padding-left: 0 !important;
     }
+    
   }
   @media(max-width:399px){
  
@@ -453,10 +454,27 @@ font-weight: 900 !important;
   
    }
    form{
-    margin-top: -59%;
+    margin-top: -50%;
     padding-bottom:.5rem !important
      }
   } 
+
+  @media(max-width:370px){
+    form{
+      margin-top: -55%;
+      padding-bottom:.5rem !important
+       
+    }
+  }
+  @media(max-width:356px){
+    form{
+      margin-top: -65%;
+      padding-bottom:.5rem !important
+       
+    }
+  }
+
+
    /*
   .form-inline{
    min-width: 70vw !important;
