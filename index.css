@@ -310,16 +310,7 @@ font-weight: 900 !important;
   font-weight: 900 !important;
   }
 }
-  /*
-  .yellow, .darks{
-    font-weight: 700 !important;
-    font-size: 1.2rem !important;
-    }
-    .title-text p{
-      font-size: 16px !important;
-    }
-   
- } */
+
  @media(max-width:750px){
   
   .title-text{ transform: translate(-85%, 5%) !important;  
@@ -344,6 +335,19 @@ font-weight: 900 !important;
 
 
  @media(max-width:575px){
+
+  header{max-height: 500px !important;
+    overflow:hidden !important
+}
+  .navbar-expand-sm{
+    transform: translate(0%, -18%);
+    z-index: 100;
+  }
+   
+  form{
+    margin-top: -23%;
+     }
+
    .column-title{
    position: absolute;
    left:70%;
@@ -363,27 +367,15 @@ font-weight: 900 !important;
     margin-top: -3rem !important;
     min-width: 100vw !important;
   }
-   .inner-nav-cover{
-    transform: translateX(-18%)! important;
-  }
+ 
   
-  .form-inline{
-    max-width: 80vw !important;
-    margin-top: -.1rem !important;
-    padding: 2%;
-    padding-left: 0%;
-    padding-bottom: 0%;
-    
-   }
-  .inner-nav-cover{
-    transform: translate(-5%, 0%)! important;
-  }
   .home a{
   font-size: 28px !important;
   }
-}
+
+ }
    @media(max-width:420px){
-    header{max-height: 450px !important;
+    header{max-height: 460px !important;
     overflow:hidden !important
     }
  
@@ -393,17 +385,12 @@ font-weight: 900 !important;
      text-align: left !important;
      padding-right: 0 !important;
    }
-   .inner-nav-cover{
-    transform: translate(-10%, 0%)! important;
-  }
   
    .title-text span{
      min-width: 100vw;
      max-width: 100vw;
    }
-   .form-control{
-    padding: 10% !important;
-  }
+
   form{
    margin-top: -70%;
     }
@@ -430,21 +417,18 @@ font-weight: 900 !important;
      text-align: left !important;
      padding-right: 0 !important;
      padding-bottom:3% !important;
+     z-index: 100;
    }
-   .inner-nav-cover{
-    transform: translate(-13%, 0%)! important;
-  }
+ .navbar-expand-sm{
+   transform: translate(3%, 5%);
+   z-index: 100;
+ }
   
    .title-text span{
      min-width: 100vw;
      max-width: 100vw;
    }
-   .form-control{
-    padding: 9% !important;
-  }
-  .form-inline{
-    max-width: 90vw !important;
-    } 
+   
     .welcome{
       font-size:5rem !important;
     font-weight: 900 !important;
@@ -468,6 +452,10 @@ font-weight: 900 !important;
     margin-top: 2rem !important;
   
    }
+   form{
+    margin-top: -59%;
+    padding-bottom:.5rem !important
+     }
   } 
    /*
   .form-inline{
