@@ -75,7 +75,7 @@ if (search == " ") {
       type:'GET'
   }); 
 }
-search = $("#searcher").val(" ");
+search = $("#searching").val(" ");
 
 }
 

@@ -9,7 +9,8 @@ html, body
   overflow-x: hidden;
   margin: 0 !important;
   padding: 0 !important;
-  font-family: 'Alegreya Sans', sans-serif;
+  /*font-family: 'Alegreya Sans', sans-serif;*/
+  font-family:'Josefin Sans', sans-serif;
   position: relative;
 }
 body{
@@ -453,136 +454,6 @@ font-weight: 900 !important;
   
   }
 
-
-   /*
-  .form-inline{
-   min-width: 70vw !important;
-    margin-top: 12rem !important;
-  
-}
-.title-text{
-  position: fixed;
-  top:30%;
-  left:63%;
-  min-width:100vw !important;
-  text-align: left !important;
-  height:auto;
-  padding-top: 1rem !important;
-
-}
-.inner-nav-cover{
-  transform: translate(-8%, 5%)! important;
-}
-.welcome, .yellow, .darks{
-  font-size: 2rem !important;
-}
-.yellow, .darks{
-  font-size: 1.3rem !important;
-}
-.title-text p{font-size: 12px !important;}
- }
-
-@media(max-width:460px){
-  .form-inline{
-   min-width: 70vw !important;
-    margin-top: 12rem !important;
-  
-}
- .title-text{
-    position: fixed;
-    top:50%;
-    left:56%;
-    min-width:100vw !important;
-    text-align: left !important;
-    height:auto;
-    padding-top: 1rem !important;
-
- }
-
-.inner-nav-cover{
-  transform: translate(-10%, 10%)! important;
-}
-.navbar-brand{
-  visibility: hidden;
-}
-.navbar{transform: translate(0%, -20%) !important;
-  z-index: 90;
-}
-}
-
-
-@media(max-width:399px){
-  .title-text{
-   left:50%;
-   top:42%;
-    min-width:100vw !important;
-    max-width: 1600px;
- }
- .inner-nav-cover{
-   min-width:100%;
-   height:auto;
-  transform: translate(-20%, 10%)! important;
-}
-.form-inline{
-  margin-top: 15rem !important;
-  min-width: 70vw;
-  transform: translate(0%, -25%) !important;
-}
-
-}  */
-    /*
-    position: relative;
-    padding-bottom: 0 !important;
-    width: 100vw !important;
-    margin:0 !important;
-    background: url(image/kevin.jpg)50% 40%/cover no-repeat;
-    background-color:rgba(12, 1, 1, 0.9);
-    z-index: 10;
-    }
-    .title-text{
-        min-width: 100vw;
-        min-height: 200px;
-        max-width: 100vw;
-        height: auto;
-        padding-top: 3% !important;
-        transform: translate(-30%, 15%) !important;
-        
-          }
-          .navbar-brand{
-          position: absolute;
-          top:0;
-          left:4%;
-          visibility: hidden;
-          }
-          .home a{
-          position: absolute;
-          left:5%;
-          top:6%
-           }
-           .button{
-            position: absolute;
-            right: 0;
-            top:0;
-            padding-right: 1.3rem !important;
-            padding-top: 1rem !important;
-          }
-          .form-inline{
-          
-            min-width:100vw !important;
-            transform: translate(5%,80%)! important;
-          
-          }
-            .form-control{
-             max-width: 100% !important;
-             position: absolute;
-         
-           }
-           .navbar{min-width:100px !important}
-       }
-      
-     
-   
-*/
 /*-----------------------INNER IMAGE SECTION--------------------------------------------*/
 
 @media(max-width:599px){
@@ -822,10 +693,10 @@ font-weight: 700;
 .fa-css3,
 .fa-html5,
 .fa-node-js,
-.fa-java-script{
-  color:#e2dadb;
-  font-size: 1rem !important;
-  font-weight: 900 !important;
+.fa-js{
+  color:#f8f1ef;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
 }
 /*-------------------media querry---------------------------*/
 @media(max-width:1060px){
@@ -1029,6 +900,19 @@ hr{
     transform: translate(27%, 8%) !important;
     padding-right: 1px !important;
     padding-left: .8rem !important;
+  }
+  header{
+background:#010307
+  }
+  header::after{
+background:#010307;
+background-image: url("image/kevin-original.jpg");
+-webkit-filter: contrast(1.4)  hue-rotate(45deg) grayscale(10%) brightness(60%) saturate(1.8) sepia(.6);
+background-repeat: no-repeat;
+background-position: 50% 70%;
+background-size: contain;
+
+}
   }
   
 }
