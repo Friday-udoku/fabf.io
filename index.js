@@ -1,12 +1,12 @@
 let search, title, author, desc,image, img, info, book, bookIsbn,bookis, item, tith, view;
 let endpoint = "https://www.googleapis.com/books/v1/volumes?q=";
-let showimg = document.getElementById("images");
+let showImg = document.getElementById("images");
 let mess = "Please enter a search query.. Thanks!"
 let mess1 = "Error retrieving the data..! Http request is not successful";
 
 $(function(){
-    showimg.innerHTML+= " ";
-$(".input-group-append").click(() =>{ 
+    showImg.innerHTML+= " ";
+$("#search-button").click(() =>{ 
  fetchbook();
 
  
@@ -39,7 +39,7 @@ if (search == " ") {
             
 
                view = "viewer.html?bookIsbn="+bookIsbn;
-               showimg.innerHTML+=`<div class = "container p-5">
+               showImg.innerHTML+=`<div class = "container p-5">
            
                <div class = "row inner-row shadow pb-5 ">
                
