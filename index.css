@@ -395,8 +395,7 @@ font-weight: 900 !important;
     text-align: left !important;
   
   }
-  .navbar-brand{visibility: hidden;
-   } 
+  
    .col-form{
     margin-top: -3rem !important;
     min-width: 100vw !important;
@@ -462,7 +461,8 @@ font-weight: 900 !important;
     }
     input, button{
       margin-bottom: 1rem !important;
-    } #search-button{
+    }
+     #search-button{
       height:50px;
     }
     .searching::placeholder{
@@ -514,13 +514,25 @@ font-weight: 900 !important;
     font-weight: 900;
     z-index: 100;
     top:30%;
-    transform: translate(1%, -10%) !important;
+    transform: translate(0%, 15%) !important;
 
-  
    }
-  
-  
+
+  .searching-form {transform: translateY(20%) !important;}
+  .navbar-brand{
+    top:15%;
+    left:-5%;
   }
+  .form-tab{z-index: 100;
+  }
+}
+   
+
+
+
+
+
+
 
 /*-----------------------INNER IMAGE SECTION--------------------------------------------*/
 
