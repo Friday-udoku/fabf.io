@@ -260,8 +260,11 @@ font-weight: 900 !important;
 
 /* ------------------------------------------------------MEDIA QUERRY-------------------------------------------*/
  @media(max-width: 991px){
-  .title-text{ transform: translate(-70%, 0%) !important;   
+  .title-text{
+    transform: translate(-95%, 0%) !important;   
     text-align: right !important;
+    min-width:100vw !important;
+
  }
  
   .image-box img{
@@ -278,16 +281,20 @@ font-weight: 900 !important;
     font-weight: 600 !important;
     }
    
-  .title-text{
-    text-align: left !important;
-    min-width:100vw !important;
-    padding-left: 15rem;
-  }
-  .title-text p{
-    font-size: 19px;
+  .title-text p
+  {
+    font-size: 16px;
   }
   .social-icon-header{
     visibility:hidden;
+  }
+  .home a{
+    top:100%;
+    font-size: 30px;
+ 
+  }
+  .navbar-brand{
+    font-size: 2rem !important;
   }
  }
  @media(max-width: 999px){
@@ -374,6 +381,33 @@ font-weight: 900 !important;
   }
 
  }
+ @media(max-width:530px){
+  #searching{
+    min-width:65%;
+    height:50px;
+    border:1px solid green;
+    margin-left: -1rem !important;
+  }
+  input, button{
+    margin-bottom: 1rem !important;
+  } #search-button{
+    height:50px;
+  }
+  .searching::placeholder{
+    font-size: 12px !important;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem !important;
+  }
+  .home a{
+    top: 70%;
+    left:5%
+  }
+  .title-text{
+   padding-top: 1rem;
+  }
+ }
+
    @media(max-width:430px){
 
  
@@ -400,8 +434,11 @@ font-weight: 900 !important;
     } #search-button{
       height:50px;
     }
-    .searching::placeholder{font-size: 12px !important;
-      padding-left: 0 !important;
+    .searching::placeholder{
+      font-size: 12px !important;
+      font-weight: 800;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-left: 1px !important;
     }
     
   }
