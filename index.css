@@ -259,6 +259,13 @@ font-weight: 900 !important;
 
 
 /* ------------------------------------------------------MEDIA QUERRY-------------------------------------------*/
+@media(max-width: 999px){
+  .social-icon-header{
+    visibility:hidden;
+  }
+ }
+
+
  @media(max-width: 991px){
   .title-text{
     transform: translate(-95%, 0%) !important;   
@@ -297,12 +304,7 @@ font-weight: 900 !important;
     font-size: 2rem !important;
   }
  }
- @media(max-width: 999px){
-  .social-icon-header{
-    visibility:hidden;
-  }
- }
-
+ 
  @media(max-width:786px){
   
   .title-text{ transform: translate(-90%, -10%) !important;  
@@ -317,6 +319,22 @@ font-weight: 900 !important;
     font-size: 4.5rem !important;
   font-weight: 900 !important;
   }
+  #searching{
+    min-width:65%;
+    height:50px;
+    border:1px solid green;
+    margin-left: -1rem !important;
+  }
+  input, button{
+    margin-bottom: 1rem !important;
+  } #search-button{
+    height:50px;
+  }
+  .home a{
+    bottom:-50% !important;
+    font-size: 25px !important;
+  }
+
 }
 
  @media(max-width:750px){
@@ -330,6 +348,7 @@ font-weight: 900 !important;
   .title-text{ transform: translate(-83%, -5%) !important;  
     min-width:100vw !important;
     text-align: right !important;
+  
   }
   .form-inline{
   margin-top: 2rem !important;
@@ -340,11 +359,15 @@ font-weight: 900 !important;
   }
  }
 
-
+ @media(max-width:614px)
+ {
+  .title-text h4{ 
+font-size: 20px !important;
+  
+  }
+}
 
  @media(max-width:575px){
-
-
   .navbar-expand-sm{
     transform: translate(0%, -18%);
     z-index: 100;
@@ -378,9 +401,11 @@ font-weight: 900 !important;
   .home a{
   font-size: 28px !important;
   margin-left: -2.5rem;
+  bottom: 0
   }
 
  }
+
  @media(max-width:530px){
   #searching{
     min-width:65%;
