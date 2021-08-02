@@ -180,7 +180,8 @@ color: #080707 !important
   padding-top: 4rem !important;
   min-width:100vw;
   min-height: 150px;
-  display:flex; justify-content: center;
+  display:flex; 
+  justify-content: center;
   align-items: center;
   margin-left:0 !important;
 
@@ -221,18 +222,19 @@ color: #080707 !important
 .social-icon-header{
  
   position: relative;
-  min-width: auto !important;
+  min-width: 6rem;
+  max-width: 15rem;
   min-height: auto !important;
   position: absolute;
   left: 73%;
   bottom: 50%;
   display: inline-block;
-  -webkit-transform: rotate(10deg);
-  -moz-transform: rotate(10deg);
-  -o-transform: rotate(10deg); 
-  transform: rotate(90deg);
-
+  
 }
+.social-icon-header button{
+  max-width: 200px !important; 
+  min-width: 100px !important; 
+  background-color: #ea4c89;}
  
 .title-text .btn{
   margin-left: 3px;
