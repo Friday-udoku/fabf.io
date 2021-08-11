@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 15 2021 14:19:55 GMT+0100 (Irish Standard Time)
+------------------------------------------------------
+
+Modified files:
+* footerA.css
+* header.css
+* index.html
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

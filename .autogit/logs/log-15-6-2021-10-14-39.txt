@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu Jul 15 2021 10:14:39 GMT+0100 (Irish Standard Time)
+------------------------------------------------------
+
+Modified files:
+* style.css
+* viewer.css
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

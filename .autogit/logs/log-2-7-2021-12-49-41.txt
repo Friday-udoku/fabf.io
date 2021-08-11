@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Mon Aug 02 2021 12:49:41 GMT+0100 (Irish Standard Time)
+------------------------------------------------------
+
+Modified files:
+* index.html
+
+
+Created files:
+* image/preferred.jpg
+
+
+Deleted files:
+
+
+Renamed files:

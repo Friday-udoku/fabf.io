@@ -1,0 +1,57 @@
+-------------------- Auto-Git Log --------------------
+		Tue Jul 27 2021 22:40:28 GMT+0100 (Irish Standard Time)
+------------------------------------------------------
+
+Modified files:
+* index.html
+* viewer.css
+* viewer.html
+
+
+Created files:
+* footer.css
+* image/3redBooks-rm.png
+* image/alternative.jpg
+* image/book-background.jpg
+* image/book-background2.jpg
+* image/book-background3.jpg
+* image/brownBK.jpg
+* image/finder-proL-R.png
+* image/greenBK.jpg
+* image/images-latan.jpg
+* image/mix-purple.jpg
+* image/presentation2.jpg
+* image/presentation3.jpg
+* image/presentation4.jpg
+* image/redBK.jpg
+* image/reuseLogo.png
+* image/scientific-BK.jpg
+* image/teaColorBK.jpg
+* image/tearPaper.png
+* image/webBkg.jpeg
+* image/webBkg2.jpeg
+* image/webBkg3.jpeg
+* image/webBkg4.jpeg
+* image/yellowBK.jpg
+* index.css
+* index.js
+* jquery.js
+
+
+Deleted files:
+* IgboKids1.jpg
+* codeBackground.jpg
+* footerA.css
+* header.css
+* style.css
+* style.js
+
+
+Renamed files:
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]
+* [object Object]

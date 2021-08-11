@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Mon Aug 02 2021 11:17:23 GMT+0100 (Irish Standard Time)
+------------------------------------------------------
+
+Modified files:
+* index.css
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:

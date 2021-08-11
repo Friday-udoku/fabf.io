@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Fri Jul 30 2021 20:35:36 GMT+0100 (Irish Standard Time)
+------------------------------------------------------
+
+Modified files:
+* index.css
+
+
+Created files:
+* image/kevin-normal.png
+
+
+Deleted files:
+
+
+Renamed files:
