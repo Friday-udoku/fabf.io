@@ -1,0 +1,39 @@
+/*----------------------MAIN CONTENT-----------------------------*/
+html, body
+{
+  width:100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin: 0 !important;
+  padding: 0 !important;
+  /*font-family: 'Alegreya Sans', sans-serif;*/
+  font-family:'Josefin Sans', sans-serif;
+  position: relative;
+}
+
+#web-body{
+  height: auto;
+  box-sizing: border-box;
+  min-width: 100vw;
+  width:100%;
+
+}
+.col
+ {
+   color:rgb(255, 253, 253); z-index: 80;
+  min-height:200px;
+  height:auto;
+ }
+
+#pre-header {
+	background-color: #3a8bcd;
+	text-align: center;
+    margin-top: 0;
+    position
+}
+#pre-header span {
+	color: #fff;
+	font-size: 15px;
+	padding: 30px 0px;
+	display: inline-block;
+}

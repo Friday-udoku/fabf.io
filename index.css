@@ -1,35 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
 
-/*----------------------MAIN CONTENT-----------------------------*/
-html, body
-{
-  
-  width:100%;
-  min-height: 100%;
-  overflow-x: hidden;
-  margin: 0 !important;
-  padding: 0 !important;
-  /*font-family: 'Alegreya Sans', sans-serif;*/
-  font-family:'Josefin Sans', sans-serif;
-  position: relative;
-}
-body{
-  margin-bottom: 300px
-}
 
-#web-body{
-  height: auto;
-  box-sizing: border-box;
-  min-width: 100vw;
-  width:100%;
-
-}
-.col
- {
-   color:rgb(255, 253, 253); z-index: 80;
-  min-height:200px;
-  height:auto;
-}/*--------------COLUMN SECTION----------------*/
+/*--------------COLUMN SECTION----------------*/
 
 
 .home, .inner-nav-cover, 
