@@ -12,7 +12,7 @@ html, body
 }
 
 #pre-header {
-	background-color: #3a8bcd;
+	background: url(image/book-background2.jpg)center center / cover no-repeat;
 	text-align: center;
     z-index: 100;
     position: fixed;
@@ -28,16 +28,14 @@ html, body
 	padding: 30px 0px;
 	display: inline-block;
    
-   
 }
 
-  
 #web-body{
   height: auto;
   box-sizing: border-box;
   min-width: 100vw;
   width:100%;
- margin-top: 15rem !important;
+ margin-top: 5rem !important;
 
 }
 .col
