@@ -388,8 +388,14 @@ font-weight: 900 !important;
   transform: translate(10%, -50%) !important;
    
   }
+  #pre-header {
+  
+      min-height: 60px !important;
+      max-height: 60px !important !important;
+     
 
  }
+}
 
  @media(max-width:530px){
   #searching{
