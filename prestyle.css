@@ -11,6 +11,27 @@ html, body
   position: relative;
 }
 
+#pre-header {
+	background-color: #3a8bcd;
+	text-align: center;
+    z-index: 100;
+    position: fixed;
+    min-height: 100px !important;
+    top: 0%;
+    right:0%;
+    left:0%;
+    
+}
+#pre-header span {
+	color: #fff;
+	font-size: 15px;
+	padding: 30px 0px;
+	display: inline-block;
+   
+   
+}
+
+  
 #web-body{
   height: auto;
   box-sizing: border-box;
@@ -25,15 +46,3 @@ html, body
   height:auto;
  }
 
-#pre-header {
-	background-color: #3a8bcd;
-	text-align: center;
-    margin-top: 0;
-    position
-}
-#pre-header span {
-	color: #fff;
-	font-size: 15px;
-	padding: 30px 0px;
-	display: inline-block;
-}
