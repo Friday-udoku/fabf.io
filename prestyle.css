@@ -12,7 +12,8 @@ html, body
 }
 
 #pre-header {
-	background: url(image/greenBK.jpg)center center / cover no-repeat;
+	background: url(image/greenB.jpg)center center / cover no-repeat;
+  background-color: #1f2022;
 	text-align: center;
     z-index: 100;
     position: fixed;

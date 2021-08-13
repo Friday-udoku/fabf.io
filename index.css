@@ -42,7 +42,7 @@ header
 {
   position: relative;
   min-width: 100vw !important;
-  background-image: linear-gradient(90deg, #020024 0%, #06061a 35%, #00d4ff 100%);
+  background-image: linear-gradient(90deg, #03030c 0%, #050508 35%, #00d4ff 100%);
   z-index: 10;
   min-height: 250px !important;
   box-sizing: border-box;
@@ -58,12 +58,12 @@ header
     height: 100%;
     width:100%;
     top:0;
-    left:0;
+    left:-20%;
     right:0;
     bottom:0;
     opacity:0.6;
-    background: rgb(145,9,149);
-    background: linear-gradient(90deg, rgba(145,9,149,1) 0%, rgba(0,9,0,1) 0%, rgba(0,212,255,1) 100%);
+    background: rgb(17, 9, 17);
+    background: linear-gradient(90deg, rgba(145,9,149,1) 0%, rgba(0,9,0,1) 0%, rgb(4, 13, 15) 100%);
     z-index: 2;
     background-image: url("image/kevin-original.jpg");
     -webkit-filter: contrast(1.4)  hue-rotate(45deg) grayscale(10%) brightness(60%) saturate(1.8) sepia(.6);
