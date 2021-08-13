@@ -155,9 +155,15 @@
     #pre-header {
         min-height: 60px !important;
         max-height: 60px !important;
-        line-height: 60px !important;
-    
+
    }
+
+   #web-body{
+   
+   margin-top: 3rem !important;
+  
+  }
+
    header:after{
        position: absolute;
        left:0 !important;

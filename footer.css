@@ -1,0 +1,452 @@
+/*-----------------------------------FOOTRESS------------
+  *----------------------------------------------------FOOTER------
+ https://www.web-eau.net/blog/10-best-footer-html-css-snippets
+
+ https://justcreative.com/10-useful-css-snippets
+
+   background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+ 
+ -----------------------*/
+
+
+
+ .footer{
+ 
+    background-color: #1f2022;
+    width:100vw;
+    padding:45px 10px 30px;
+    display:block;
+    font-size:15px;
+    line-height:24px;
+    box-sizing: border-box;
+    color: #ebe2e2;
+    width: 100%;
+    z-index: 55;
+    margin-top: 0;
+
+   }
+   .foote:after{
+    content: "";
+    position:absolute;
+    height: 100%;
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0.1;
+    background: #010307;
+    z-index: 1;
+
+  }
+   .profile-card{
+     min-width: 300px;
+     max-width: 300px; 
+     min-height: 370px;
+      max-height: 300px; 
+      overflow: hidden; 
+      text-align: center;
+      border-radius: 10px;
+       color: #240202;
+      position: absolute; left:10% !important; 
+     top:15% !important;
+     
+   }
+   .profile-image{
+    width:100%;
+    height:150px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
+    color:white; 
+    border-radius: 0% 5% 0% 0%;
+  
+
+   }
+   .footer .profile-title-text, h5{
+     color:peachpuff !important;
+     font-weight:700 !important;
+     font-size:large 
+    }
+    .inner-icanwi{
+      width:auto;
+      height:auto;
+      position: relative;
+      
+    }
+   
+    .icanwi-cover{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: 2s ease linear;
+      background: url(image/IgboMasqGroup.jpg) 50%/cover no-repeat;
+      cursor: pointer;
+      z-index: 60;
+        }
+
+    .inner-icanwi:hover .icanwi-cover
+   {
+     opacity: 1; 
+     height:100%;
+     transition: 500ms all linear ease-in-out;
+   }
+   
+ .footer .col-sm-12, .col-sm-6{
+   z-index: 80;
+ 
+ }
+  
+.site-footer hr
+{
+  border-top-color:#ffffff;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.footer h6
+{
+  color:#DD2C00;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#ffffff;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#ffffff;
+  font-size: 18px;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#f38b2a;
+  text-decoration:none;
+  font-weight: 900;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right;
+
+} 
+.main-footer .social-icons .fab{
+  color:rgb(253, 253, 250) !important;
+  transform: translateY(25%);
+  font-size: 25px;
+  font-weight: 3300;
+  
+}
+
+.main-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:15%;
+  border: 2px solid peachpuff !important
+
+}
+.copyright-text
+{
+  margin:0;
+
+}
+.copyright-text a{
+  color:rgba(171, 170, 172, 0.952) !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+.copyright-text a:hover
+{
+  color:chocolate;
+  font-weight: 600;
+  text-decoration: none;
+}
+.fa-java,
+.fa-css3,
+.fa-html5,
+.fa-node-js,
+.fa-js{
+  color:#f8f1ef;
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+}
+
+
+
+
+/*-------------------media querry---------------------------*/
+@media(max-width:1060px){
+  .profile-card{
+    min-width: 250px;
+  }
+   
+  }
+ 
+@media (max-width:991px)
+{
+
+  hr{
+    margin-top: 6rem !important;
+  }
+  .main-footer{
+    margin-top: 4rem !important;
+
+  }
+  .profile-card{
+    min-width: 300px;
+
+} 
+.igbo-link{
+padding-right: 2rem !important;
+}
+.mission{padding-right: 3rem !important;
+}
+.col-igbo,.col-profile{
+transform: translate(25%, 10%) !important;
+}
+hr{margin-top: 20% !important;
+}
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+  .footer-heading{ padding-right: 5% !important;}
+   .copyright-text{transform: translateY(-80%) !important;
+  }  
+  .social-icons{transform: translateY(-80%);}     
+  
+  }
+
+  @media (max-width:787px)
+{
+  .profile-card{
+    min-width: 100% !important;
+    transform: translate(-7%, 8%) !important;
+
+}
+  .col-igbo{
+    min-width:100% !important;
+    transform: translate(13%, 8%) !important;
+    padding-right: 1rem !important;
+  }
+  .col-profile{
+    width:80vw !important;
+    margin-top: 1rem !important;
+    transform: translate(1%, 8%) !important;
+  }
+  hr{ margin-top: 45% !important;
+  }
+ .main-footer{
+
+    margin-top: 4rem !important;
+ }
+
+  .copyright-text{
+  transform: translateX(1%) !important;
+  
+  }
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#ffffff;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  
+  color:#1625f7;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#ffffff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+  .col-igbo{
+    min-width:100% !important;
+    transform: translate(18%, 8%) !important;
+    padding-right: 1rem !important;
+  }
+  .col-profile{
+    width:100vw !important;
+    margin-top: 2rem !important;
+    transform: translateY(40%) !important;
+  }
+  hr{
+    margin-top: 17rem !important;
+  }
+
+}
+
+@media(max-width:648px){
+  .profile-card{
+    min-width: 65vw !important;
+  }
+  hr{
+    margin-top: 17rem !important;
+  }
+}  
+
+
+@media(max-width:579px){
+.copyright-text{
+
+  transform: translateY(-80%) !important;
+  }  
+  .social-icons{transform: translateY(1%);  
+  padding-top:1rem
+}
+.profile-card{
+  min-width: 350px !important;
+
+} 
+}
+@media(max-width:579px){
+.col-igbo{
+  transform: translate(20%, 8%) !important;
+  padding-right: 1px !important;
+}
+hr{
+  margin-top: 19rem !important;
+}
+}
+@media(max-width:403px){
+  .col-igbo{
+    transform: translate(27%, 8%) !important;
+    padding-right: 1px !important;
+    padding-left: .8rem !important;
+  }
+  header{
+background:#010307
+  }
+  header::after{
+background:#010307;
+background-image: url("image/kevin-original.jpg");
+-webkit-filter: contrast(1.4)  hue-rotate(45deg) grayscale(10%) brightness(60%) saturate(1.8) sepia(.6);
+background-repeat: no-repeat;
+background-position: 50% 70%;
+background-size: contain;
+
+}
+  }
+  
+
+
+@media(max-width:399px){
+  .col-igbo{
+    transform: translate(27%, 8%) !important;
+    padding-right: 1px !important;
+    padding-left: 1.3rem !important;
+  }
+  .profile-card{
+    min-width: 300px !important;
+  
+  } 
+  hr{
+    margin-top: 19rem !important;
+  }
+  .mission{padding-right: 1rem ! important;
+ 
+  }
+  .footer-heading {
+    margin-top:-2rem !important;
+  } 
+} 
+    /* background: rgba(0,0,0, 0.8);
+    border-bottom: 1px solid rgba(255,255,255, 0.5); 
