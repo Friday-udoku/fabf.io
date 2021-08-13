@@ -369,7 +369,8 @@ font-weight: 900 !important;
    
    }
   
-   .title-text{ transform: translate(-87%, 10%) !important;  
+   .title-text{ 
+    transform: translate(-87%, 10%) !important;  
     min-width:100vw !important;
     text-align: left !important;
   
@@ -389,11 +390,9 @@ font-weight: 900 !important;
    
   }
   #pre-header {
-  
       min-height: 60px !important;
-      max-height: 60px !important !important;
-     
-
+      max-height: 60px !important;
+  
  }
 }
 
