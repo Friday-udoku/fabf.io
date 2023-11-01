@@ -59,7 +59,7 @@ if (search == " ") {
                         ) + '...'}</p>
                 <p class = "links">
                 <a href="${info}" class="btn btn-danger btn-sm btn-vendor">Go to vendors page</a>
-                <a href="${view}" class="btn btn-danger btn-sm btn-embedded" >Read for free here</a>
+                <a href="${view}" class="btn btn-danger btn-sm btn-embedded" >Read more</a>
                 </p>
                 </div>
                 </div>
